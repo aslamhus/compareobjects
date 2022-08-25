@@ -1,4 +1,4 @@
-import { compareObjects } from '../index.js';
+import { compareObjects } from '../compareObjects.js';
 
 window.onload = () => {
   printResult('#apples-and-oranges', applesAndOranges());
