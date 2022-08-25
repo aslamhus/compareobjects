@@ -20,7 +20,9 @@ or add the file into your html via a script tag
 
 **compareObjects** takes two objects as parameters and compares them recursively. Since arrays are also objects, you can use this to compare multi-dimensional arrays. Give it a try by checking out the [examples page](https://aslamhus.github.io/compareobjects/test/index.html).
 
-It will `return` an `array` with length 0 if the objects are equal. Otherwise it will return an array of all the mismatching values.
+### `Return`
+
+**compareObjects** will `return` an `array` with length 0 if the objects are equal. Otherwise it will return an array of all the mismatching values.
 
 ```js
 const objA = { a: 'value' };
