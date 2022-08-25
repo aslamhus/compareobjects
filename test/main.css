@@ -1,0 +1,40 @@
+html {
+  padding: 1rem;
+}
+code {
+  position: relative;
+  left: -20px;
+}
+mark {
+  background: red !important;
+  border: 2px solid red !important;
+}
+.example {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+.result {
+  background: rgb(224, 255, 224);
+  padding: 20px;
+  font-size: 1.05rem;
+  color: rgb(52, 52, 52);
+}
+.try-your-own {
+}
+form {
+  margin: 1rem 0;
+}
+form input {
+  display: block;
+}
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-color: lightgray;
+  padding-inline-start: 20px;
+  resize: vertical;
+}
+form button {
+  margin: 0.5rem 0;
+}
